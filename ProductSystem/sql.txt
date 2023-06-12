@@ -1,0 +1,6 @@
+CREATE TABLE `prod` (
+  `prod_number` int(11) NOT NULL,
+  `prod_name` varchar(255) DEFAULT NULL,
+  `prod_price` int(11) DEFAULT NULL,
+  `prod_stock` int(11) DEFAULT NULL
+)
